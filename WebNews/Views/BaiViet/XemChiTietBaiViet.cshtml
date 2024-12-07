@@ -1,0 +1,267 @@
+﻿@using WebNews.Models
+@model BaiViet
+@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Chi Tiết";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}
+@{
+    IEnumerable<BinhLuan> DanhSachBinhLuan = ViewBag.BinhLuan as IEnumerable<BinhLuan>;
+    IEnumerable<LuotThich> DanhSachLuotThich = ViewBag.Like as IEnumerable<LuotThich>;
+    IEnumerable<ChuDe> DanhSachChuDe = ViewBag.ChuDe as IEnumerable<ChuDe>; 
+    IEnumerable<BaiViet> DanhSachBaiVietLienQuan = ViewBag.BaiVietLienQuan as IEnumerable<BaiViet>;
+    // int SL = int.Parse(Model.LuotThich.ToString()) - 1;
+    // Boolean KiemTra = false;
+}
+
+@{
+    var httpContext = Context.Request.HttpContext;
+    var jsonFromSession = httpContext.Session.GetString("NguoiDung");
+
+    string TaiKhoan = null;
+    string Ho = null;
+    string Ten = null;
+    if (!string.IsNullOrEmpty(jsonFromSession))
+    {
+        var nguoiDung = Newtonsoft.Json.JsonConvert.DeserializeObject<NguoiDung>(jsonFromSession);
+        TaiKhoan = nguoiDung.TaiKhoan;
+        Ho = nguoiDung.Ho;
+        Ten = nguoiDung.Ten;
+    }
+}
+
+
+<div class="wpo-breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wpo-breadcumb-wrap">
+                    <h2>Trang Chủ</h2>
+                    <ul>
+                        <li><a href="index.html.htm">Trang Chủ</a></li>
+                        <li><span>Chi Tiết Bài Viết</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="wpo-blog-single-section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-8 col-12">
+                <div class="wpo-blog-content">
+                    <div class="post format-standard-image">
+                        <div class="entry-media">
+                            <img src="assets/images/blog/img-10.jpg" alt="">
+                        </div>
+                        <div class="entry-meta">
+                            <ul>
+                                <li><i class="fi flaticon-user"></i> By <a href="">@Model.NguoiDung.Ho @Model.NguoiDung.Ten</a> </li>
+                                <li><i class="fi flaticon-comment-white-oval-bubble"></i> Bình luận @DanhSachBinhLuan.Count() </li>
+                                <li><i class="fi flaticon-calendar"></i> @Model.NgayDang.ToString("dd-MM-yyyy")</li>
+                            </ul>
+                        </div>
+                        <h2>@Model.TenBaiViet</h2>
+                        <p>
+                            @Html.Raw(Model.NoiDungBaiViet)
+                        </p>
+                    </div>
+
+                    <div class="tag-share clearfix">
+                        <div class="tag">
+                            <span>Share: </span>
+                            <ul>
+                                <li><a href="#">facebook</a></li>
+                                <li><a href="#">zalo</a></li>
+                            </ul>
+                        </div>
+                    </div> <!-- end tag-share -->
+
+                    <div class="author-box">
+                        <div class="author-avatar">
+                            <a href="#" target="_blank"><img src="assets/images/blog-details/author.jpg" alt=""></a>
+                        </div>
+                        <div class="author-content">
+                            <a href="#" class="author-name">Tác Giả: @Model.NguoiDung.Ho @Model.NguoiDung.Ten</a>
+                            <p>
+                                Giúp người khác cũng là giúp chính mình, bởi điều tốt ta cho đi rồi sẽ quay trở lại với ta.
+                            </p>
+                            <div class="socials">
+                                <ul class="social-link">
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- end author-box -->
+
+                    <div class="more-posts">
+                        <div class="previous-post">
+                            @if (null != ViewBag.baiVietTruoc)
+                            {
+                                <a href="/BaiViet/XemChiTietBaiViet?iMaBaiViet=@ViewBag.baiVietTruoc.MaBaiViet">
+                                    <span class="post-control-link">Trước đó</span>
+                                    <span class="post-name">
+                                        @ViewBag.baiVietTruoc.TenBaiViet
+                                    </span>
+                                </a>
+                            }
+                        </div>
+                        <div class="next-post">
+                            @if (null != ViewBag.baiVietSau)
+                            {
+                                <a href="/BaiViet/XemChiTietBaiViet?iMaBaiViet=@ViewBag.baiVietSau.MaBaiViet">
+                                    <span class="post-control-link">Kế tiếp</span>
+                                    <span class="post-name">
+                                        @ViewBag.baiVietSau.TenBaiViet
+                                    </span>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                    <div class="comments-area">
+                        <div class="comments-section">
+                            <h3 class="comments-title">@DanhSachBinhLuan.Count() Bình luận</h3>
+                            <ol class="comments">
+                                @foreach (var item in DanhSachBinhLuan)
+                                {
+                                    <li class="comment even thread-even depth-1" id="comment-1">
+                                        <div id="div-comment-1">
+                                            <div class="comment-theme">
+                                                <div class="comment-image"><img src="~/assets/images/blog-details/comments-author/avt.jpg" alt=""></div>
+                                            </div>
+                                            <div class="comment-main-area">
+                                                <div class="comment-wrapper">
+                                                    <div class="comments-meta">
+                                                        <h4>
+                                                            @item.NguoiDung.Ho @Model.NguoiDung.Ten <span class="comments-date">
+                                                                @item.NgayBinhLuan.ToString("dd-MM-yyyy")
+                                                            </span>
+                                                        </h4>
+                                                    </div>
+                                                    <div class="comment-area">
+                                                        <p>
+                                                            @Html.Raw(item.NoiDungBinhLuan)
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                }
+                            </ol>
+                        </div>
+                        <!-- end comments-section -->
+
+                        <div class="comment-respond">
+                            @if (null != TaiKhoan)
+                            {
+                                <h3 class="comment-reply-title">Bình luận</h3>
+                                <form id="commentForm">
+                                    <input type="hidden" name="MaBaiViet" value="@Model.MaBaiViet">
+                                    <div class="form-textarea">
+                                        <textarea name="NoiDungBinhLuan" placeholder="Nội dung bình luận..."></textarea>
+                                    </div>
+                                    <div class="form-submit">
+                                        <button type="button" class="btn btn-primary" id="submitBtn">Bình Luận</button>
+                                    </div>
+                                </form>
+                            }
+                            else
+                            {
+                                <h3 class="comment-reply-title">Bình luận</h3>
+                                <span>Yêu cầu <a href="/DangNhap/DangNhap">Đăng Nhập</a> để bình luận</span>
+                            }
+
+                        </div>
+                    </div> <!-- end comments-area -->
+                </div>
+            </div>
+            <div class="col col-lg-4 col-12">
+                <div class="blog-sidebar">
+                    <div class="widget about-widget">
+                        <div class="img-holder">
+                            <img src="assets/images/blog/about-widget.jpg" alt="">
+                        </div>
+                        <h4>@Model.NguoiDung.Ho @Model.NguoiDung.Ten</h4>
+                        <p>Giúp người khác cũng là giúp chính mình, bởi điều tốt ta cho đi rồi sẽ quay trở lại với ta.</p>
+                        <div class="social">
+                            <ul class="clearfix">
+                                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                                <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="aw-shape">
+                            <img src="assets/images/blog/ab.png" alt="">
+                        </div>
+                    </div>
+                    <div class="widget category-widget">
+                        <h3>Chủ Đề</h3>
+                        <ul>
+                            @foreach (var item in DanhSachChuDe)
+                            {
+                                <li><a href="@item.DuongDan@item.MaChuDe">@item.TenChuDe</a></li>
+                            }
+                         
+                        </ul>
+                    </div>
+                    <div class="widget recent-post-widget">
+                        <h3>Bài viết liên quan</h3>
+                        <div class="posts">
+                            @foreach (var item in DanhSachBaiVietLienQuan)
+                            {
+                                <div class="post">
+                                    <div class="img-holder">
+                                        <img src="~/Assets/images/recent-posts/avt.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <span class="date">@item.NgayDang.ToString("dd-MM-yyyy")</span>
+                                        <h4>
+                                            <a href="/BaiViet/XemChiTietBaiViet?iMaBaiViet=@item.MaBaiViet">
+                                                @item.TenBaiViet
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end container -->
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    document.getElementById("submitBtn").addEventListener("click", function () {
+        var form = document.getElementById("commentForm");
+        var formData = new FormData(form);
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/BaiViet/ThemBinhLuan");
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                // Xử lý phản hồi thành công
+                var currentUrl = window.location.origin + window.location.pathname;
+                window.location.href = currentUrl + "?iMaBaiViet=" + formData.get("MaBaiViet");
+            } else if (data.error) {
+                window.location.href = "/DangNhap/DangNhap";
+            }
+            else {
+
+            }
+        };
+        xhr.onerror = function () {
+            // Xử lý lỗi kết nối
+            alert("Lỗi kết nối. Vui lòng thử lại sau.");
+        };
+        xhr.send(formData);
+    });
+</script>

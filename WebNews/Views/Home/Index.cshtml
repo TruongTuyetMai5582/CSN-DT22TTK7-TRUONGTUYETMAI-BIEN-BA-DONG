@@ -1,0 +1,333 @@
+﻿@using WebNews.Models;
+@model List<BaiViet>
+﻿@{
+    ViewData["Title"] = "Trang Chủ";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}﻿
+
+@{
+    IEnumerable<ChuDe> DanhSachChuDe = ViewBag.ChuDe as IEnumerable<ChuDe>;
+}
+<!-- start of wpo-blog-hero -->
+<div class="wpo-blog-hero-area">
+    <div class="container">
+        <div class="sortable-gallery">
+            <div class="gallery-filters"></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="wpo-blog-grids gallery-container clearfix">
+                        <div class="grid">
+                            <div class="img-holder">
+                                <img src="https://cdn.baotravinh.vn/uploads/image/2023/05/01/Ba%20dong%201.jpg" alt="" class="img img-responsive" style="height: 566.250px; width: 546.422px; object-fit: cover;">
+                                <div class="wpo-blog-content">
+                                    <h2>
+                                        <a href="https://www.baotravinh.vn/trong-tinh/dong-dao-du-khach-den-khu-du-lich-bien-ba-dong-ngay-le-28451.html" class="thumb">
+Đông đảo du khách đến Khu du lịch biển Ba Động ngày lễ
+                                        </a>
+                                    </h2>
+                                    <p>
+                                        Có mặt tại Khu du lịch biển Ba Động thuộc xã Trường Long Hòa, thị xã Duyên Hải vào những ngày này, chúng tôi ghi nhận khách tham quan trong và ngoài tỉnh đỗ về rất đông. Dưới đây là những hình ảnh do phóng viên Báo Trà Vinh Online ghi nhận được.
+                                    </p>
+                                    <ul>
+                                        @* <li><img src="~/Assets/images/blog/blog-avater/avt.jpg" alt=""></li> *@
+                                        <li>Bởi <a href="#">Tuyết Mai</a></li>
+                                        <li>11-11-2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="img-holder">
+                                @* <img src="~/Assets/images/hero/img-2.jpg" alt="" class="img img-responsive"> *@
+                                <img src="https://mia.vn/media/uploads/blog-du-lich/bien-ba-dong-7-1689781006.jpg" alt="" class="img img-responsive">
+                                <div class="wpo-blog-content">
+                                    @* <div class="thumb">Gói Cước</div> *@
+                                    <h2><a href="https://mia.vn/cam-nang-du-lich/bien-ba-dong-ben-hang-duong-trai-dai-o-xu-tra-vinh-12188" class="thumb">Biển Ba Động là danh thắng và địa điểm du lịch Trà Vinh nổi tiếng thuộc địa phận xã Trường Long Hoà, huyện Duyên Hải. </a></h2>
+                                    <ul >
+                                        <li>Bởi <a href="#"> Tuyết Mai</a></li>
+                                        <li>11-11-2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid s2">
+                            <div class="img-holder">
+                                @* <img src="~/Assets/images/hero/img-3.jpg" alt="" class="img img-responsive"> *@
+                                <img src="thamhiemmekong.com/wp-content/uploads/2020/04/diengiohanquoctravinh1.jpg" alt="" class="img img-responsive">
+                                <div class="wpo-blog-content">
+                                    @* <div class="thumb">Dịch Vụ</div> *@
+                                    <h2><a href="thamhiemmekong.com/thong-tin-du-lich-mien-tay/bien-ba-dong-tra-vinh.html" class="thumb">Cách trung tâm TP. Trà Vinh chừng 60km, bãi biển Ba Động thơ mộng đã được người Pháp khám phá, cho xây dựng thành nơi tắm biển, nghỉ dưỡng từ những năm đầu thế kỷ XX và đặt tên là Biển Nhà Mát.</a></h2>
+                                    <ul>
+                                        <li>By <a href="#">Tuyết Mai</a></li>
+                                        <li>11-11-2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="img-holder">
+                                <img src="https://txdh.travinh.gov.vn/SiteFolders/duyenhai/NAM%202023/THANG%209_2023/1693899118441~2.jpg" alt="" class="img img-responsive">
+                                <div class="wpo-blog-content">
+                                    @* <div class="thumb">Business</div> *@
+                                    <h2><a href="https://mia.vn/cam-nang-du-lich/bien-ba-dong-ben-hang-duong-trai-dai-o-xu-tra-vinh-12188" class="thumb">Những thông tin mới về biển ba động</a></h2>
+                                    <ul>
+                                        <li>By <a href="#">Tuyết Mai</a></li>
+                                        <li>11-11-2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- end of wpo-blog-hero -->
+<!-- start of wpo-breacking-news -->
+<div class="wpo-breacking-news section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="b-title"><span>Tin hấp dẫn</span></div>
+            <div class="wpo-breacking-wrap owl-carousel">
+                <div class="wpo-breacking-item s1">
+                    <div class="wpo-breacking-img">
+                        <img src="~/Assets/images/breaking-news/i1.jpg" alt="">
+                    </div>
+                    <div class="wpo-breacking-text">
+                        <span>22 Sep 2024</span>
+                        <h3>
+                            <a href="https://dulichviet.com.vn/tin-tuc/bien-ba-dong-dia-diem-thu-hut-dong-dao-khach-du-lich-tai-tra-vinh">Biển Ba Động là một trong những điểm du lịch Trà Vinh nổi tiếng</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="wpo-breacking-item">
+                    <div class="wpo-breacking-img">
+                        <img src="~/Assets/images/breaking-news/i2.jpg" alt="">
+                    </div>
+                    <div class="wpo-breacking-text">
+                        <span>22 Sep 2024</span>
+                        <h3><a href="https://dulichviet.com.vn/tin-tuc/bien-ba-dong-dia-diem-thu-hut-dong-dao-khach-du-lich-tai-tra-vinh">Biển Ba Động nằm tại phường Long Hòa, huyện Duyên Hải</a></h3>
+                    </div>
+                </div>
+                <div class="wpo-breacking-item">
+                    <div class="wpo-breacking-img">
+                        <img src="~/Assets/images/breaking-news/i3.jpg" alt="">
+                    </div>
+                    <div class="wpo-breacking-text">
+                        <span>22 Sep 2024</span>
+                        <h3><a href="https://dulichviet.com.vn/tin-tuc/bien-ba-dong-dia-diem-thu-hut-dong-dao-khach-du-lich-tai-tra-vinh">Trà Vinh được biết đến với lễ hội Chol Chnam Thmay</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of wpo-breacking-news -->
+<!-- start wpo-blog-highlights-section -->
+<section class="wpo-blog-highlights-section">
+    <div class="container">
+        <div class="wpo-section-title">
+            <h2>Bài Viết của nhà báo</h2>
+        </div>
+        <div class="row">
+            <div class="col col-lg-8 col-12">
+                <!-- start wpo-blog-section -->
+                <div class="wpo-blog-highlights-wrap">
+                    <div class="wpo-blog-items">
+                        <div class="row">
+                            @foreach (var item in Model)
+                            {
+                                <div class="col col-lg-6 col-md-6 col-12">
+                                    <div class="wpo-blog-item">
+                                        <div class="wpo-blog-img">
+                                            <img src="~/Assets/HinhAnh/AnhBaiViet/@item.HinhAnh" alt="@item.TenBaiViet">
+                                            <div class="thumb">
+                                                @item.ChuDe.TenChuDe
+                                            </div>
+                                        </div>
+                                        <div class="wpo-blog-content">
+                                            <h2>
+                                                <a href="/BaiViet/XemChiTietBaiViet?iMaBaiViet=@item.MaBaiViet">
+                                                    @item.TenBaiViet
+                                                </a>
+                                            </h2>
+                                            <ul>
+                                                <li>
+                                                    <img src="~/Assets/images/blog/blog-avater/avt.jpg" alt="">
+                                                </li>
+                                                <li>By <a href="#">@item.NguoiDung.Ho @item.NguoiDung.Ten</a></li>
+                                                <li>@item.NgayDang.ToString("dd-MM-yyyy")</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <!-- end wpo-blog-section -->
+            </div>
+            <div class="col col-lg-4 col-12">
+                <div class="blog-sidebar">
+                    <div class="widget category-widget">
+                        <h3>Chủ Đề</h3>
+                        <ul>
+                            @foreach (var item in DanhSachChuDe)
+                            {
+                                <li><a href="@item.DuongDan@item.MaChuDe">@item.TenChuDe</a></li>
+                            }
+
+                        </ul>
+                    </div>
+                    <div class="widget recent-post-widget">
+                        <h3>Bài viết nổi bật</h3>
+                        <div class="posts">
+                            <div class="post">
+                                <div class="img-holder">
+                                    <img src="~/Assets/images/breaking-news/i4.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <span class="date">19 Jun 2024 </span>
+                                    <h4>
+                                        <a href="https://diadiem.wiki/bien-ba-dong/">
+                                            Đường đi đến biển Ba Động
+                                            
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <div class="img-holder">
+                                    <img src="~/Assets/images/breaking-news/i5.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <span class="date">22 May 2024 </span>
+                                    <h4>
+                                        <a href="https://diadiem.wiki/bien-ba-dong/">Bãi biển Ba Động ở đâu?</a>
+                                    </h4>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</section>
+<!-- end wpo-blog-highlights-section -->
+<!-- start wpo-blog-sponsored-section -->
+<section class="wpo-blog-sponsored-section section-padding">
+    <div class="container">
+        <div class="wpo-section-title">
+            <h2>Du lịch hấp dẫn</h2>
+        </div>
+        <div class="row">
+            <div class="wpo-blog-sponsored-wrap">
+                <div class="wpo-blog-items">
+                    <div class="row">
+                        <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="~/Assets/images/sponsord/avt.jpg" alt="">
+                                    <div class="thumb">Travel</div>
+                                </div>
+                                <div class="wpo-blog-content">
+                                    <h2>
+                                        <a href="https://www.traveloka.com/vi-vn/explore/destination/canh-dep-the-gioi/251787">Top Phong Cảnh Đẹp Nhất Thế Giới.</a>
+                                    </h2>
+                                    <ul>
+                                        <li><img src="~/Assets/images/blog/blog-avater/avt.jpg" alt=""></li>
+                                        <li>By <a href="https://www.traveloka.com/vi-vn/explore/destination/canh-dep-the-gioi/251787">Admin</a></li>
+                                        <li>25 Sep 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="~/Assets/images/sponsord/img-2.jpg" alt="">
+                                    <div class="thumb">Travel</div>
+                                </div>
+                                <div class="wpo-blog-content">
+                                    <h2>
+                                        <a href="https://www.nguyenphivan.com/post/h%C3%ACnh-m%E1%BA%ABu-ho%C3%A0n-h%E1%BA%A3o-everything-to-everyone">
+                                            Ý tưởng bấm ảnh hoàn hảo bạn phải biết
+                                            About.
+                                        </a>
+                                    </h2>
+                                    <ul>
+                                        <li><img src="~/Assets/images/blog/blog-avater/img-2.jpg" alt=""></li>
+                                        <li>By <a href="https://www.nguyenphivan.com/post/h%C3%ACnh-m%E1%BA%ABu-ho%C3%A0n-h%E1%BA%A3o-everything-to-everyone">Admin</a></li>
+                                        <li>25 Sep 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="~/Assets/images/sponsord/img-3.jpg" alt="">
+                                    <div class="thumb">Travel</div>
+                                </div>
+                                <div class="wpo-blog-content">
+                                    <h2>
+                                        <a href="https://www.cntraveler.com/galleries/2015-11-27/the-50-most-beautiful-places-in-the-world">Top Most Beautiful Scenery in The World.</a>
+                                    </h2>
+                                    <ul>
+                                        <li><img src="~/Assets/images/blog/blog-avater/img-3.jpg" alt=""></li>
+                                        <li>By <a href="https://www.cntraveler.com/galleries/2015-11-27/the-50-most-beautiful-places-in-the-world">Admin</a></li>
+                                        <li>25 Sep 2022</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="~/Assets/images/sponsord/img-4.jpg" alt="">
+                                    <div class="thumb">Travel</div>
+                                </div>
+                                <div class="wpo-blog-content">
+                                    <h2>
+                                        <a href="https://www.cntraveler.com/galleries/2015-11-27/the-50-most-beautiful-places-in-the-world">Top Most Beautiful Scenery in The World.</a>
+                                    </h2>
+                                    <ul>
+                                        <li><img src="~/Assets/images/blog/blog-avater/avt.jpg" alt=""></li>
+                                        <li>By <a href="https://www.cntraveler.com/galleries/2015-11-27/the-50-most-beautiful-places-in-the-world">Admin</a></li>
+                                        <li>25 Sep 2022</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</section>
+<!-- end wpo-blog-sponsored-section -->
+<!-- start wpo-subscribe-section -->
+
+
+
+<script>
+    function submitForm() {
+        var form = document.getElementById("myForm");
+        var formData = new FormData(form);
+
+        fetch("/Home/ThemMoiEmail", {
+            method: "POST",
+            body: formData
+        })
+            .then(response => {
+                // Xử lý response từ server nếu cần
+            })
+            .catch(error => {
+                // Xử lý lỗi nếu có
+                console.error('Error:', error);
+            });
+    }
+
+</script>

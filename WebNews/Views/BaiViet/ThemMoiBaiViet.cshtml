@@ -1,0 +1,101 @@
+﻿@using WebNews.Models
+@model List<ChuDe>
+
+@{
+    ViewData["Title"] = "Thêm Mới Bài Viết";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}
+
+<div class="wpo-breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wpo-breadcumb-wrap">
+                    <h2>Trang Chủ</h2>
+                    <ul>
+                        <li><a href="index.html.htm">Trang Chủ</a></li>
+                        <li><span>Thêm mới bài viết</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wpo-checkout-area section-padding">
+    <div class="container">
+        <form id="myForm"  asp-controller="BaiViet" asp-action="ThemMoiBaiViet" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div class="checkout-wrap">
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <div class="caupon-wrap s2 coupon-2">
+                            <div class="biling-item">
+                                <div class="billing-adress" id="open2">
+                                    <div class="contact-form form-style">
+                                        <div class="row">
+                                          
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Tên Bài Viết</label>
+                                                <input type="text" placeholder=""  name="TenBaiViet" required>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Hình Ảnh</label>
+                                                <input type="file" name="imageFile" required>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Chủ Đề</label>
+                                                <select id="myDropdown" class="form-select" name="MaChuDe">
+                                                    @foreach (var item in Model)
+                                                    {
+                                                        <option value="@item.MaChuDe">@item.TenChuDe</option>
+                                                    }
+                                                </select>
+
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Nội Dung</label>
+                                                <textarea id="NoiDung" name="NoiDungBaiViet"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="biling-item-2">
+                                        <div class="submit-btn-area">
+                                            <ul>
+                                                <li>
+                                                    <button class="theme-btn" type="submit">Thêm Mới</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="cout-order-area">
+                            <div class="oreder-item ">
+                                <ul>
+                                    <li class="o-header">Danh sách chủ đề</li>
+                                    @foreach (var item in Model)
+                                    {
+                                        <li><a href="@item.DuongDan@item.MaChuDe">@item.TenChuDe</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script>
+    ClassicEditor
+        .create(document.querySelector('#NoiDung'))
+        .catch(error => {
+            console.error(error);
+        });
+</script>

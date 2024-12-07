@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wpOceans">
+    <link rel="shortcut icon" type="image/png" href="~/Assets/images/favicon.png">
+    <title>Đăng Nhập</title>
+    <link href="~/Assets/css/themify-icons.css" rel="stylesheet">
+    <link href="~/Assets/css/flaticon.css" rel="stylesheet">
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/css/animate.css" rel="stylesheet">
+    <link href="~/Assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="~/Assets/css/owl.theme.css" rel="stylesheet">
+    <link href="~/Assets/css/slick.css" rel="stylesheet">
+    <link href="~/Assets/css/slick-theme.css" rel="stylesheet">
+    <link href="~/Assets/css/swiper.min.css" rel="stylesheet">
+    <link href="~/Assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="~/Assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="~/Assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="~/Assets/css/component.css" rel="stylesheet">
+    <link href="~/Assets/sass/style.css" rel="stylesheet">
+    <link href="~/Assets/css/responsive.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js"></script>
+
+    <!-- Thông báo popup SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <!-- Thông báo Toastr-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="angular-shape">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+        <!-- end preloader -->
+        <div class="wpo-login-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form asp-controller="DangNhap" asp-action="DangNhap" method="post" class="wpo-accountWrapper">
+                            <div class="wpo-accountInfo">
+                                <div class="wpo-accountInfoHeader">
+<a class="navbar-brand" href="/Home/index">
+    <img src="https://png.pngtree.com/png-vector/20230217/ourmid/pngtree-beach-and-sunset-logo-design-palm-tree-png-image_6606222.png" alt="Beach and Sunset Logo" width="100" height="100">
+</a>
+                                    <a class="wpo-accountBtn" href="/DangNhap/Dangki">
+                                        <span class="">Đăng Ký</span>
+                                    </a>
+                                </div>
+                                <div class="image">
+                                    <img src="~/Assets/images/login.svg" alt="">
+                                </div>
+                                <div class="back-home">
+                                    <a class="wpo-accountBtn" href="/Home/Index">
+                                        <span class="">Trang Chủ</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="wpo-accountForm form-style">
+                                <div class="fromTitle">
+                                    <h2>Đăng Nhập</h2>
+                                    <p>Nhập thông tin đăng nhập</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <label>Tài Khoản</label>
+                                        <input type="text" id="email" name="TaiKhoan" placeholder="Username" required>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>Mật khẩu</label>
+                                            <input class="pwd6" type="password" placeholder="******" name="MatKhau" required>
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default reveal6" type="button"><i class="ti-eye"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <div class="check-box-wrap">
+                                          @*   <div class="input-box">
+                                                <input type="checkbox" id="fruit4" name="fruit-4" value="Strawberry">
+                                                <label for="fruit4">Ghi nhớ mật khẩu</label>
+                                            </div> *@
+                                            <div class="forget-btn">
+                                                <a href="#">Quyên mật khẩu?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <button type="submit" class="wpo-accountBtn">Đăng Nhập</button>
+                                    </div>
+                                </div>
+                                <h4 class="or"><span>Hoặc</span></h4>
+                                <ul class="wpo-socialLoginBtn">
+                                    <li><button class="facebook" tabindex="0" type="button"><span><i class="ti-facebook"></i></span></button></li>
+                                    <li><button class="twitter" tabindex="0" type="button"><span><i class="ti-twitter"></i></span></button></li>
+                                    <li><button class="linkedin" tabindex="0" type="button"><span><i class="ti-linkedin"></i></span></button></li>
+                                </ul>
+                                <p class="subText">Bạn chưa có tài khoản? <a href="/DangNhap/DangKi">Đăng kí mới</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="~/Assets/js/jquery.min.js"></script>
+    <script src="~/Assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="~/Assets/js/modernizr.custom.js"></script>
+    <script src="~/Assets/js/jquery-plugin-collection.js"></script>
+    <!-- Custom script for this template -->
+    <script src="~/Assets/js/script.js"></script>
+
+    <!-- Thông báo popup SweetAlert -->
+    <script>
+        $(document).ready(function () {
+            var sweetMessage = '@Html.Raw(TempData["SweetMessage"])';
+
+            if (sweetMessage) {
+                var parts = sweetMessage.split('|');
+                var type = parts[0];
+                var message = parts[1];
+
+                if (type === 'Success') {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Thành công',
+                        text: message,
+                    });
+                } else if (type === 'Error') {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Lỗi',
+                        text: message,
+                    });
+                } else if (type === 'Warning') {
+                    Swal.fire({
+                        icon: 'warning',
+                        title: 'Cảnh báo',
+                        text: message,
+                    });
+                } else if (type === 'Info') {
+                    Swal.fire({
+                        icon: 'info',
+                        title: 'Thông tin',
+                        text: message,
+                    });
+                }
+            }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var toastMessage = "@Html.Raw(TempData["ToastMessage"])";
+            if (toastMessage !== "") {
+                var parts = toastMessage.split("|");
+                var type = parts[0];
+                var message = parts[1];
+
+                switch (type) {
+                    case "Success":
+                        toastr.success(message, 'Thành Công');
+                        break;
+                    case "Error":
+                        toastr.error(message, 'Thất Bại');
+                        break;
+                    case "Warning":
+                        toastr.warning(message, 'Cảnh Bảo');
+                        break;
+                    case "Info":
+                        toastr.info(message, 'Thông Tin');
+                        break;
+                    default:
+                        toastr.success(message, 'Thành Công');
+                }
+            }
+        });
+    </script>
+    <!-- #endregion -->
+
+</body>
+
+</html>

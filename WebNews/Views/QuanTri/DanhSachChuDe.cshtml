@@ -1,0 +1,66 @@
+﻿@using WebNews.Models;
+@model List<ChuDe>
+@{
+    ViewData["Title"] = "Danh Sách Chủ Đề";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}
+
+<div class="wpo-breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wpo-breadcumb-wrap">
+                    <h2>Danh Sách Chủ Đề</h2>
+                    <ul>
+                        <li><a href="index.html.htm">Trang Chủ</a></li>
+                        <li><span>Danh Sách Chủ Đề</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="wpo-blog-sponsored-section section-padding">
+    <div class="container">
+        <div class="wpo-section-title">
+            <h2>Danh Sách Chủ Đề</h2>
+        </div>
+        <div class="row">
+            <div class="wpo-blog-sponsored-wrap">
+                <div class="wpo-blog-items">
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <th>Mã Chủ Đề</th>
+                                <th>Tên Chủ Đề</th>
+                                <th>Thuộc Danh Mục</th>
+                                <th>Dường Dẫn</th>
+                                <th>Tùy Chọn</th>
+                            </tr>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.MaChuDe</td>
+                                    <td>@item.TenChuDe</td>
+                                    <td>@item.DanhMuc.TenDanhMuc</td>
+                                    <td>@item.DuongDan</td>
+                                    <td>
+                                        <a href="/QuanTri/CapNhatChuDe?iMaChuDe=@item.MaChuDe">Cập Nhật</a> |
+                                        @if (item.HienThi == true)
+                                        {
+                                            <a href="/QuanTri/AnChuDe?iMaChuDe=@item.MaChuDe">Đang Hiển Thị</a>
+                                        }
+                                        else
+                                        {
+                                            <a href="/QuanTri/AnChuDe?iMaChuDe=@item.MaChuDe" style="color:red">Ẩn</a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</section>

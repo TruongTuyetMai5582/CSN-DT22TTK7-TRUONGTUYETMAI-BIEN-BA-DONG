@@ -1,0 +1,981 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\031676f9-b335-4ebf-a293-3941ceb56876_bien-ba-dong1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\031676f9-b335-4ebf-a293-3941ceb56876_bien-ba-dong1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\03889723-3194-4933-b1c7-d1fd2f657550_Screenshot 2024-05-09 105159.png",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\03889723-3194-4933-b1c7-d1fd2f657550_Screenshot 2024-05-09 105159.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\0e7d454c-112f-4d5a-8bde-e3c02fc9136d_Cong-trinh-dien-gio-Han-Quoc-tai-bien-Ba-Dong.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\0e7d454c-112f-4d5a-8bde-e3c02fc9136d_Cong-trinh-dien-gio-Han-Quoc-tai-bien-Ba-Dong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\1780a683-d013-4455-b15b-35d7cc49fc69_bien-ba-dong1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\1780a683-d013-4455-b15b-35d7cc49fc69_bien-ba-dong1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\1b8339fb-b705-41c4-b318-0fc360c37606_5711869433e092becbf1-171498149-1699-7372-1714981512.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\1b8339fb-b705-41c4-b318-0fc360c37606_5711869433e092becbf1-171498149-1699-7372-1714981512.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\2821931b-88e4-446e-b0ae-7cc309bc7e7d_3-1680335132-6513-1714965926-1-8812-7753-1714971121.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\2821931b-88e4-446e-b0ae-7cc309bc7e7d_3-1680335132-6513-1714965926-1-8812-7753-1714971121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\32a4b0b9-968f-47d9-a885-4ed1e526fd2e_AP24125661857802-9097-1714955731.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\32a4b0b9-968f-47d9-a885-4ed1e526fd2e_AP24125661857802-9097-1714955731.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\4e59b2d1-9d61-4989-82fa-1f9a8ecc2cb4_Bien---Ba-Dong-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\4e59b2d1-9d61-4989-82fa-1f9a8ecc2cb4_Bien---Ba-Dong-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\567b5514-3d65-44e8-88c5-6b56cc000419_Screenshot 2024-05-04 215832.png",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\567b5514-3d65-44e8-88c5-6b56cc000419_Screenshot 2024-05-04 215832.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\6d53fda1-d708-4bb9-9f2a-9d4565b51c38_image002-4991-1715043584.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\6d53fda1-d708-4bb9-9f2a-9d4565b51c38_image002-4991-1715043584.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\6e4baa1d-bf97-4d95-98db-ff41112c8a92_3-1680335132-6513-1714965926-1-8812-7753-1714971121.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\6e4baa1d-bf97-4d95-98db-ff41112c8a92_3-1680335132-6513-1714965926-1-8812-7753-1714971121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\704f19b0-531e-419c-a562-0396b9c52054_LỊCH SỬ.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\704f19b0-531e-419c-a562-0396b9c52054_LỊCH SỬ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\c21ce30b-5982-4f59-a77f-ce77bec024c4_436209875-749908770616619-5839-3882-8839-1714968647.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\c21ce30b-5982-4f59-a77f-ce77bec024c4_436209875-749908770616619-5839-3882-8839-1714968647.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\d94ae0db-2d24-41a3-a560-1af221a1058d_anh-bao-ve-tot-nghiep-1-8722-1707187170.png",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\d94ae0db-2d24-41a3-a560-1af221a1058d_anh-bao-ve-tot-nghiep-1-8722-1707187170.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\HinhAnh\\AnhBaiViet\\f893210c-8702-4133-b251-e50b3b0da5cf_chao-don3-1715052006-4758-1715052013.jpg",
+      "PackagePath": "staticwebassets\\Assets\\HinhAnh\\AnhBaiViet\\f893210c-8702-4133-b251-e50b3b0da5cf_chao-don3-1715052006-4758-1715052013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\component.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\component.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\jquery.fancybox.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\odometer-theme-default.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\odometer-theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\owl.theme.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\owl.transitions.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\owl.transitions.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\swiper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Demi.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Demi.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Demi.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Demi.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-DemiObl.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-DemiObl.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-DemiObl.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-DemiObl.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Heavy.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Heavy.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Heavy.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Heavy.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Light.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Light.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Medium.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\FuturaPT-Medium.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\FuturaPT-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\flaticon.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\flaticon.svg",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\flaticon.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\flaticon.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\flaticon.woff2",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\icomoon-1.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\icomoon-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\slick-1.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\slick-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\themify-1.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\themify-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\Assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\Single-title-shape2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\Single-title-shape2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\add.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\add.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Assets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog-details\\author.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog-details\\author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog-details\\comments-author\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog-details\\comments-author\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog-details\\comments-author\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog-details\\comments-author\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog-details\\comments-author\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog-details\\comments-author\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\ab.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\ab.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\ab2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\ab2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\about-widget.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\about-widget.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\blog-avater\\avt.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog-avater\\avt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\blog-avater\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog-avater\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\blog-avater\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog-avater\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\blog-avater\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\blog-avater\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-10.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-11.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-12.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-8.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\blog\\img-9.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\blog\\img-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\i1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\i1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\i2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\i2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\i3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\i3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\i4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\i4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\i5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\i5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\i6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\i6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\i7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\i7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\breaking-news\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\breaking-news\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\business\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\business\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\business\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\business\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\business\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\business\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\cart\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\cart\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\cart\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\cart\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\cart\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\cart\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\cart\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\cart\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\cart\\img-5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\cart\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\checkout\\img-1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\checkout\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\checkout\\img-2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\checkout\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\checkout\\img-3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\checkout\\img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\checkout\\img-4.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\checkout\\img-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\error-404.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\error-404.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\fancybox\\blank.gif",
+      "PackagePath": "staticwebassets\\Assets\\images\\fancybox\\blank.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\fancybox\\fancybox_loading.gif",
+      "PackagePath": "staticwebassets\\Assets\\images\\fancybox\\fancybox_loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\fancybox\\fancybox_loading@2x.gif",
+      "PackagePath": "staticwebassets\\Assets\\images\\fancybox\\fancybox_loading@2x.gif"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\fancybox\\fancybox_overlay.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\fancybox\\fancybox_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\fancybox\\fancybox_sprite.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\fancybox\\fancybox_sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\fancybox\\fancybox_sprite@2x.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\fancybox\\fancybox_sprite@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\features\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\features\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\features\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\features\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\features\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\features\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\foods\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\foods\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\foods\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\foods\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\foods\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\foods\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\ft-icon\\1.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\ft-icon\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\ft-icon\\2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\ft-icon\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\ft-icon\\3.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\ft-icon\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\ft-icon\\4.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\ft-icon\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\hero\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\hero\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\hero\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\hero\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\hero\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\hero\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\hero\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\hero\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\icon\\app.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\icon\\app.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\icon\\home.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\icon\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\icon\\mail-2.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\icon\\mail-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\instragram\\13.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\instragram\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\instragram\\14.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\instragram\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\instragram\\15.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\instragram\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\instragram\\16.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\instragram\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\instragram\\17.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\instragram\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\instragram\\18.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\instragram\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\lifestyle\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\lifestyle\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\lifestyle\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\lifestyle\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\lifestyle\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\lifestyle\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\login.svg",
+      "PackagePath": "staticwebassets\\Assets\\images\\login.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\newslatter-bg.png",
+      "PackagePath": "staticwebassets\\Assets\\images\\newslatter-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\page-title.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\page-title.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\recent-posts\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\recent-posts\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\recent-posts\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\recent-posts\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\recent-posts\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\recent-posts\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\recent-posts\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\recent-posts\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\review\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\review\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\review\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\review\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\thumb\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\thumb\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\thumb\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\thumb\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\thumb\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\thumb\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\thumb\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\thumb\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\shop\\shop-single\\thumb\\img-6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\shop\\shop-single\\thumb\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\sponsord\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\sponsord\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\sponsord\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\sponsord\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\sponsord\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\sponsord\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\images\\sponsord\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\images\\sponsord\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\js\\jquery-plugin-collection.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery-plugin-collection.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\js\\jquery.dlmenu.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.dlmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\js\\modernizr.custom.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\modernizr.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\Assets\\sass\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\sass\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TinTuc\\News\\WebNews\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebNews.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebNews.props",
+      "PackagePath": "build\\WebNews.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebNews.props",
+      "PackagePath": "buildMultiTargeting\\WebNews.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebNews.props",
+      "PackagePath": "buildTransitive\\WebNews.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,25 @@
+﻿@using WebNews.Models
+@model List<DanhMuc>
+
+@foreach (var danhMuc in Model)
+{
+    <li class="menu-item-has-children">
+        <a href="@danhMuc.DuongDan">@danhMuc.TenDanhMuc</a>
+        @if(danhMuc.ChuDes.Count() != 0)
+        {
+        <ul class="sub-menu">
+            @foreach (var chuDe in danhMuc.ChuDes)
+            {
+                @if (chuDe.MaDanhMuc == danhMuc.MaDanhMuc && chuDe.HienThi == true)
+                {
+
+                    <li><a href="@chuDe.DuongDan@chuDe.MaChuDe">@chuDe.TenChuDe</a></li>
+                }
+            }
+        </ul>
+        }
+    </li>
+}
+
+
+

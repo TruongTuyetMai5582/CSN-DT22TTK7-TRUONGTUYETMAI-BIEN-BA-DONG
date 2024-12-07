@@ -1,0 +1,60 @@
+﻿@using WebNews.Models;
+@model List<BaiViet>
+
+@{
+    ViewData["Title"] = "DanhSachBaiViet";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}
+
+<div class="wpo-breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wpo-breadcumb-wrap">
+                    <h2>Bài Viết</h2>
+                    <ul>
+                        <li><a href="index.html.htm">Trang Chủ</a></li>
+                        <li><span>Bài Viết</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="wpo-blog-sponsored-section section-padding">
+    <div class="container">
+        <div class="wpo-section-title">
+            <h2>Danh Sách Bài Viết</h2>
+        </div>
+        <div class="row">
+            <div class="wpo-blog-sponsored-wrap">
+                <div class="wpo-blog-items">
+                    <div class="row">
+                        @foreach (var item in Model)
+                        {
+                            <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
+                                <div class="wpo-blog-item">
+                                    <div class="wpo-blog-img">
+                                        <img src="~/Assets/HinhAnh/AnhBaiViet/@item.HinhAnh" alt="@item.TenBaiViet">
+                                        <div class="thumb">@item.ChuDe.TenChuDe</div>
+                                    </div>
+                                    <div class="wpo-blog-content">
+                                        <h2>
+                                            <a href="/BaiViet/XemChiTietBaiViet?iMaBaiViet=@item.MaBaiViet">@item.TenBaiViet</a>
+                                        </h2>
+                                        <ul>
+                                            <li><img src="~/Assets/images/blog/blog-avater/avt.jpg" alt=""></li>
+                                            <li>By: <a href="#">@item.NguoiDung.Ho @item.NguoiDung.Ten</a></li>
+                                            <li>@item.NgayDang.ToString("dd-MM-yyyy")</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</section>
+

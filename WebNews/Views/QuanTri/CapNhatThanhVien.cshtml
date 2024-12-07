@@ -1,0 +1,98 @@
+﻿@using WebNews.Models
+@model NguoiDung
+@{
+    ViewData["Title"] = "Cập Nhật Thành Viên";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}
+
+<div class="wpo-breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wpo-breadcumb-wrap">
+                    <h2>Trang Chủ</h2>
+                    <ul>
+                        <li><a href="index.html.htm">Trang Chủ</a></li>
+                        <li><span>Cập Nhật Thành Viên</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wpo-checkout-area section-padding">
+    <div class="container">
+        <form id="myForm" asp-controller="QuanTri" asp-action="CapNhatThanhVien" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <div class="checkout-wrap">
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <div class="caupon-wrap s2 coupon-2">
+                            <div class="biling-item">
+                                <div class="billing-adress" id="open2">
+                                    <div class="contact-form form-style">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Mật Khẩu</label>
+                                                <input type="password" value="@Model.MatKhau" name="MatKhau" required>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Họ</label>
+                                                <input type="text" value="@Model.Ho" name="Ho" required>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Tên</label>
+                                                <input type="text" value="@Model.Ten" name="Ten" required>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Ngày Sinh</label>
+                                                <input type="date" name="NgaySinh" required value="@Model.NgaySinh.ToString("yyyy-MM-dd")">
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <label for="email2">Giới Tính</label>
+                                                <select id="myDropdown" class="form-select" name="GioiTinh">
+                                                    <option value="1">Nữ</option>
+                                                    <option value="0">Nam</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="biling-item-2">
+                                        <div class="submit-btn-area">
+                                            <ul>
+                                                <li>
+                                                    <button class="theme-btn" type="submit">Cập Nhật</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="cout-order-area">
+                            <div class="oreder-item ">
+                                <ul>
+                                    <li class="o-header">Danh sách chủ đề</li>
+                                    @*   @foreach (var item in Model)
+                                    {
+                                    <li><a href="@item.DuongDan@item.MaChuDe">@item.TenChuDe</a></li>
+                                    } *@
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    // Lấy giá trị của @Model.GioiTinh từ code Razor
+    var gioiTinh = @Model.GioiTinh;
+
+    // Thiết lập giá trị mặc định cho dropdown
+    document.getElementById("myDropdown").value = gioiTinh.toString();
+</script>

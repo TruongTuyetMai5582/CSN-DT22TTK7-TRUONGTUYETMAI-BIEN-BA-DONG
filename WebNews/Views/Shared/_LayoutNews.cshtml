@@ -1,0 +1,439 @@
+﻿@using WebNews.Models;
+@using Newtonsoft.Json.Linq
+@using Microsoft.AspNetCore.Http;
+
+@{
+    var httpContext = Context.Request.HttpContext;
+    var jsonFromSession = httpContext.Session.GetString("NguoiDung");
+
+    string TaiKhoan = null;
+    string Ho = null;
+    string Ten = null;
+    int Quyen = 2;
+    if (!string.IsNullOrEmpty(jsonFromSession))
+    {
+        var nguoiDung = Newtonsoft.Json.JsonConvert.DeserializeObject<NguoiDung>(jsonFromSession);
+        TaiKhoan = nguoiDung.TaiKhoan;
+        Ho = nguoiDung.Ho;
+        Ten = nguoiDung.Ten;
+        Quyen = nguoiDung.MaQuyen;
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wpOceans">
+    <link rel="shortcut icon" type="image/png" href="https://www.mobifone.vn/assets/source/icons/mobifone_favicon.png">
+    <title>@ViewData["Title"]</title>
+    <link href="~/Assets/css/themify-icons.css" rel="stylesheet">
+    <link href="~/Assets/css/flaticon.css" rel="stylesheet">
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Assets/css/animate.css" rel="stylesheet">
+    <link href="~/Assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="~/Assets/css/owl.theme.css" rel="stylesheet">
+    <link href="~/Assets/css/slick.css" rel="stylesheet">
+    <link href="~/Assets/css/slick-theme.css" rel="stylesheet">
+    <link href="~/Assets/css/swiper.min.css" rel="stylesheet">
+    <link href="~/Assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="~/Assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="~/Assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="~/Assets/css/component.css" rel="stylesheet">
+    <link href="~/Assets/sass/style.css" rel="stylesheet">
+    <link href="~/Assets/css/responsive.css" rel="stylesheet">
+    <script src="~/assets/js/jquery.min.js"></script>
+
+
+
+
+
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js"></script> *@
+
+    <!-- Thông báo popup SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <!-- Thông báo Toastr-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <!-- ckeditor-->
+    <script src="https://cdn.ckeditor.com/ckeditor5/38.0.0/classic/ckeditor.js"></script>
+    @*     <!-- jQuery CDN cho phiên bản 3.x -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> *@
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- Start header -->
+        <header id="header" class="wpo-site-header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-7 col-md-9 col-sm-12 col-12">
+                            <div class="contact-intro">
+                                @if (string.IsNullOrEmpty(TaiKhoan))
+                                {
+                                    <ul>
+                                        <li class="update"><span><a href="/DangNhap/DangNhap" style="color:white">Đăng Nhập</a></span></li>
+                                        <li>Chào mừng bạn đến với website của chúng tôi</li>
+                                    </ul>
+                                }
+                                else
+                                {
+                                    <ul>
+                                        <li class="update"><span><a href="/BaiViet/ThemMoiBaiViet" style="color:white">Đăng Bài</a></span></li>
+                                        <li>Chào mừng <b>@Ho @Ten </b> bạn đến với website của chúng tôi</li>
+                                    </ul>
+                                }
+                            </div>
+                        </div>
+                        <div class="col  col-lg-5 col-md-3 col-sm-12 col-12">
+                            <div class="contact-info">
+                                <ul>
+                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
+                                    <li><a href="#"><i class="ti-google"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end topbar -->
+            <nav class="navigation navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
+                            <div class="mobail-menu">
+                                <button type="button" class="navbar-toggler open-btn">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar first-angle"></span>
+                                    <span class="icon-bar middle-angle"></span>
+                                    <span class="icon-bar last-angle"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-6">
+                            <div class="navbar-header">
+<a class="navbar-brand" href="/Home/index">
+    <img src="https://png.pngtree.com/png-vector/20230217/ourmid/pngtree-beach-and-sunset-logo-design-palm-tree-png-image_6606222.png" alt="Beach and Sunset Logo" width="100" height="100">
+</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-1 col-1">
+                            <div id="navbar" class="collapse navbar-collapse navigation-holder">
+                                <button class="menu-close"><i class="ti-close"></i></button>
+                                <ul class="nav navbar-nav mb-2 mb-lg-0">
+
+                                    @await Component.InvokeAsync(typeof(WebNews.Views.Components.MenuComponent))
+
+                                    @if (!string.IsNullOrEmpty(TaiKhoan))
+                                    {
+                                        if (Quyen == 1)
+                                        {
+                                            <li class="menu-item-has-children">
+                                                <a class="active" href="#">Quản Lý</a>
+                                                <ul class="sub-menu">
+                                                    <li><a class="active" href="/QuanTri/DanhSachThanhVien">Quản Lý Khách Hàng</a></li>
+                                                    <li><a class="active" href="/QuanTri/DanhSachChuDe">Quản Lý Chủ Đề</a></li>
+                                                    <li><a class="active" href="/QuanTri/DanhSachBaiViet">Quản Lý Bài Viết</a></li>
+                                                    <li><a href="/DangNhap/DangXuat">Đăng Xuất</a></li>
+                                                </ul>
+                                            </li>
+                                        }
+                                        else if (Quyen == 2)
+                                        {
+                                            <li class="menu-item-has-children">
+                                                <a class="active" href="#">@Ho @Ten</a>
+                                                <ul class="sub-menu">
+                                                @*     <li><a class="active" href="index.html.htm">Cá Nhân</a></li>
+                                                    <li><a href="index-2.html.htm">Bài Viết Của Bạn </a></li>
+                                                    <li><a href="index-2.html.htm">Danh Sách Yêu Thích </a></li> *@
+                                                    <li><a href="/DangNhap/DangXuat">Đăng Xuất</a></li>
+                                                </ul>
+                                            </li>
+                                        }
+                                    }
+
+
+
+                                   @*  <li class="menu-item-has-children">
+                                        <a href="#">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html.htm">Archive</a></li>
+                                            <li><a href="contact.html.htm">Contact Us</a></li>
+                                            <li><a href="shop.html.htm">Shop</a></li>
+                                            <li><a href="shop-single.html.htm">Shop Single</a></li>
+                                            <li><a href="cart.html.htm">Cart</a></li>
+                                            <li><a href="checkout.html.htm">Checkout</a></li>
+                                            <li><a href="404.html.htm">Error 404</a></li>
+                                            <li><a href="login.html.htm">Login</a></li>
+                                            <li><a href="register.html.htm">Register</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="lifestyle.html.htm">Lifestyle</a></li>
+                                    <li><a href="foods.html.htm">Foods</a></li>
+                                    <li><a href="business.html.htm">Business</a></li>
+                                    <li><a href="travels.html.htm">Travel</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Post</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html.htm">Post right sidebar</a></li>
+                                            <li><a href="blog-left-sidebar.html.htm">Post left sidebar</a></li>
+                                            <li><a href="blog-fullwidth.html.htm">Post fullwidth</a></li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">Post details</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="blog-single.html.htm">Post details right sidebar</a></li>
+                                                    <li>
+                                                        <a href="blog-single-left-sidebar.html.htm">
+                                                            Post details left
+                                                            sidebar
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-single-fullwidth.html.htm">Post details fullwidth</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li> *@
+                                </ul>
+                            </div>
+                            <!-- end of nav-collapse -->
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-2">
+                            <div class="header-right">
+                                <div class="header-search-form-wrapper">
+                                    <div class="cart-search-contact">
+                                        <div class="header-search-form">
+                                            <form>
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="Search here...">
+                                                    <button type="submit"><i class="fi flaticon-magnifiying-glass"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header-right-menu-wrapper">
+                                    <div class="header-right-menu">
+                                        <div class="right-menu-toggle-btn">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end of container -->
+            </nav>
+        </header>
+        <!-- end of header -->
+        @* START NỘI DUNG *@
+        @RenderBody()
+        @* END NỘI DUNG *@
+        <!-- start of wpo-site-footer-section -->
+        <footer class="wpo-site-footer">
+            <div class="wpo-upper-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="widget about-widget">
+                               
+                                <p>Số 126 Nguyễn Thiện Thành - Khóm 4, Phường 5, Thành phố Trà Vinh, tỉnh Trà Vinh</p>
+                                <b>Điện thoại: 0063725720</b><br />
+
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="widget link-widget">
+                                <div class="widget-title">
+                                    <h3>Danh Mục</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="blog.html.htm">Trang Chủ</a></li>
+                                    <li><a href="https://localhost:7288/BaiViet/BaiVietChuDe?iMaChuDe=1">Tin Tức </a></li>
+                                    <li><a href="https://localhost:7288/BaiViet/BaiVietChuDe?iMaChuDe=4">Giới Thiệu</a></li>
+                                  
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="widget tag-widget">
+                                <div class="widget-title">
+                                    <h3>Thẻ Tag </h3>
+                                </div>
+                                <ul>
+                                    <li><a href="travels.html.htm">Biển ba động</a></li>
+                         
+                                    <li><a href="lifestyle.html.htm">Tin tức</a></li>
+                                    <li><a href="blog.html.htm">Đời sống</a></li>
+                                    <li><a href="blog.html.htm">Xã hội</a></li>
+                                
+                                   
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-2 col-md-6 col-sm-12 col-12">
+                            <div class="widget social-widget">
+                                <div class="widget-title">
+                                    <h3>kết nối</h3>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#"><i><img src="~/Assets/images/ft-icon/1.png" alt=""></i> Facebook</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i><img src="~/Assets/images/ft-icon/2.png" alt=""></i> Twitter</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i><img src="~/Assets/images/ft-icon/3.png" alt=""></i> Instagram</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i><img src="~/Assets/images/ft-icon/4.png" alt=""></i> Youtube</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end container -->
+            </div>
+            <div class="wpo-lower-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-xs-12">
+                            <p class="copyright">
+                                © Copyright 2024 - Trương Tuyết Mai
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of wpo-site-footer-section -->
+    </div>
+    <!-- end of page-wrapper -->
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="~/Assets/js/jquery.min.js"></script>
+    <script src="~/Assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="~/Assets/js/modernizr.custom.js"></script>
+    <script src="~/Assets/js/jquery-plugin-collection.js"></script>
+    <!-- Custom script for this template -->
+    <script src="~/Assets/js/script.js"></script>
+
+    <!-- Thông báo popup SweetAlert -->
+    <script>
+        $(document).ready(function () {
+            var sweetMessage = '@Html.Raw(TempData["SweetMessage"])';
+
+            if (sweetMessage) {
+                var parts = sweetMessage.split('|');
+                var type = parts[0];
+                var message = parts[1];
+
+                if (type === 'Success') {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Thành công',
+                        text: message,
+                    });
+                } else if (type === 'Error') {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Lỗi',
+                        text: message,
+                    });
+                } else if (type === 'Warning') {
+                    Swal.fire({
+                        icon: 'warning',
+                        title: 'Cảnh báo',
+                        text: message,
+                    });
+                } else if (type === 'Info') {
+                    Swal.fire({
+                        icon: 'info',
+                        title: 'Thông tin',
+                        text: message,
+                    });
+                }
+            }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var toastMessage = "@Html.Raw(TempData["ToastMessage"])";
+            if (toastMessage !== "") {
+                var parts = toastMessage.split("|");
+                var type = parts[0];
+                var message = parts[1];
+
+                switch (type) {
+                    case "Success":
+                        toastr.success(message, 'Thành Công');
+                        break;
+                    case "Error":
+                        toastr.error(message, 'Thất Bại');
+                        break;
+                    case "Warning":
+                        toastr.warning(message, 'Cảnh Bảo');
+                        break;
+                    case "Info":
+                        toastr.info(message, 'Thông Tin');
+                        break;
+                    default:
+                        toastr.success(message, 'Thành Công');
+                }
+            }
+        });
+    </script>
+    <!-- #endregion -->
+    @*  <script>
+    ClassicEditor
+    .create(document.querySelector('#editor'))
+    .then(editor => {
+    console.log(editor);
+    })
+    .catch(error => {
+    console.error(error);
+    });
+    </script> *@
+
+    <script>
+        // Định nghĩa hàm myFunction
+        function myFunction(event) {
+            // Xử lý sự kiện touchstart ở đây
+            console.log('Sự kiện touchstart đã xảy ra.');
+        }
+        document.addEventListener('touchstart', myFunction, { passive: false });
+    </script>
+</body>

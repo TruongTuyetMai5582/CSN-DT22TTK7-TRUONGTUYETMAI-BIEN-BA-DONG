@@ -1,0 +1,65 @@
+﻿@using WebNews.Models;
+@model List<BaiViet>
+@{
+    ViewData["Title"] = "Danh Sách Bài Viết Cần Duyệt";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}
+
+<div class="wpo-breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wpo-breadcumb-wrap">
+                    <h2>Bài Viết </h2>
+                    <ul>
+                        <li><a href="index.html.htm">Trang Chủ</a></li>
+                        <li><span>Danh Sách Bài Viết Cần Duyệt</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="wpo-blog-sponsored-section section-padding">
+    <div class="container">
+        <div class="wpo-section-title">
+            <h2>Danh Sách Bài Viết Cần Duyệt</h2>
+        </div>
+        <div class="row">
+            <div class="wpo-blog-sponsored-wrap">
+                <div class="wpo-blog-items">
+                    <div class="row">
+                        @if (Model.Count() == 0)
+                        {
+                            <b>Không có bài viết nào cần duyệt</b>
+                        }
+                        else
+                        {
+                            <table>
+                                <tr>
+                                    <th>Mã bài viết</th>
+                                    <th>Tên Bài Viết</th>
+                                    <th>Người Đăng</th>
+                                    <th>Tùy Chọn</th>
+                                </tr>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.MaBaiViet</td>
+                                        <td>@item.TenBaiViet</td>
+                                        <td>@item.NguoiDung.Ho @item.NguoiDung.Ten</td>
+
+                                        <td>
+                                            <a href="/QuanTri/DuyetBaiViet?iMaBaiViet=@item.MaBaiViet">Duyệt</a> |
+                                            <a href="/QuanTri/XoaBaiViet?iMaBaiViet=@item.MaBaiViet">Xóa</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </table>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</section>

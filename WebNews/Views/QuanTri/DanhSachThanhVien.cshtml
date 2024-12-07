@@ -1,0 +1,68 @@
+﻿@using WebNews.Models;
+@model List<NguoiDung>
+@{
+    ViewData["Title"] = "DanhSachThanhVien";
+    Layout = "~/Views/Shared/_LayoutNews.cshtml";
+}
+
+<div class="wpo-breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wpo-breadcumb-wrap">
+                    <h2>Thành Viên</h2>
+                    <ul>
+                        <li><a href="index.html.htm">Trang Chủ</a></li>
+                        <li><span>Danh Sách Thành Viên</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="wpo-blog-sponsored-section section-padding">
+    <div class="container">
+        <div class="wpo-section-title">
+            <h2>Danh Sách Thành Viên</h2>
+        </div>
+        <div class="row">
+            <div class="wpo-blog-sponsored-wrap">
+                <div class="wpo-blog-items">
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <th>Tài Khoản</th>
+                                <th>Họ Tên</th>
+                                <th>Số Bài Viết</th>
+                                <th>Số Bình Luận</th>
+                                <th>Lượt Yêu Thích</th>
+                                <th>Tùy Chọn</th>
+                            </tr>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.TaiKhoan</td>
+                                    <td>@item.Ho @item.Ten</td>
+                                    <td>@item.BaiViets.Count()</td>
+                                    <td>@item.BinhLuans.Count()</td>
+                                    <td>@item.LuotThiches.Count()</td>
+                                    <td>
+                                        <a href="/QuanTri/CapNhatThanhVien?sTaiKhoan=@item.TaiKhoan">Cập Nhật</a> |
+                                        @if (item.TrangThai == 0)
+                                        {
+                                            <a href="/QuanTri/KhoaThanhVien?sTaiKhoan=@item.TaiKhoan">Đang Hoạt Động</a>
+                                        }
+                                        else
+                                        {
+                                            <a href="/QuanTri/KhoaThanhVien?sTaiKhoan=@item.TaiKhoan" style="color:red">Đã Khóa</a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</section>

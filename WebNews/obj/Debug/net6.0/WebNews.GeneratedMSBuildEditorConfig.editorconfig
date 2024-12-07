@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebNews
+build_property.RootNamespace = WebNews
+build_property.ProjectDir = C:\Users\Admin\Desktop\TinTuc\News\WebNews\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\TinTuc\News\WebNews
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/BaiViet/BaiVietChuDe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpVmlldFxCYWlWaWV0Q2h1RGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/BaiViet/DanhSachBaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpVmlldFxEYW5oU2FjaEJhaVZpZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/BaiViet/ThemMoiBaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpVmlldFxUaGVtTW9pQmFpVmlldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/BaiViet/XemChiTietBaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpVmlldFxYZW1DaGlUaWV0QmFpVmlldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xNZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/DangNhap/DangKi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ05oYXBcRGFuZ0tpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/DangNhap/DangNhap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ05oYXBcRGFuZ05oYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/QuanTri/CapNhatChuDe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhblRyaVxDYXBOaGF0Q2h1RGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/QuanTri/CapNhatThanhVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhblRyaVxDYXBOaGF0VGhhbmhWaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/QuanTri/DanhSachBaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhblRyaVxEYW5oU2FjaEJhaVZpZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/QuanTri/DanhSachChuDe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhblRyaVxEYW5oU2FjaENodURlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/QuanTri/DanhSachThanhVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhblRyaVxEYW5oU2FjaFRoYW5oVmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/TinTuc/News/WebNews/Views/Shared/_LayoutNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
